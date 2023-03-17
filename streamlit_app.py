@@ -41,7 +41,7 @@ if image is not None:
         for text in result:
             result_text.append(text[0])
 
-        st.write(result_text)
+        st.write(result)
     #st.success("Here you go!")
     st.balloons()
 else:
