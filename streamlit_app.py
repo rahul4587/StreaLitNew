@@ -39,7 +39,7 @@ if image is not None:
 
 
         for text in result:
-            result_text.append(text[1])
+            result_text.append(text[0])
 
         st.write(result_text)
     #st.success("Here you go!")
